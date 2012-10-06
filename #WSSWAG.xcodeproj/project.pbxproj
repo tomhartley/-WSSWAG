@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80B20241620F05800E72B72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80B20231620F05800E72B72 /* UIKit.framework */; };
+		D80B20261620F05800E72B72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80B20251620F05800E72B72 /* Foundation.framework */; };
+		D80B20281620F05800E72B72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80B20271620F05800E72B72 /* CoreGraphics.framework */; };
+		D80B202E1620F05800E72B72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D80B202C1620F05800E72B72 /* InfoPlist.strings */; };
+		D80B20301620F05800E72B72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D80B202F1620F05800E72B72 /* main.m */; };
+		D80B20341620F05800E72B72 /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D80B20331620F05800E72B72 /* THAppDelegate.m */; };
+		D80B20361620F05900E72B72 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D80B20351620F05900E72B72 /* Default.png */; };
+		D80B20381620F05900E72B72 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D80B20371620F05900E72B72 /* Default@2x.png */; };
+		D80B203A1620F05900E72B72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D80B20391620F05900E72B72 /* Default-568h@2x.png */; };
+		D80B203D1620F05900E72B72 /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80B203C1620F05900E72B72 /* THViewController.m */; };
+		D80B20401620F05900E72B72 /* THViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D80B203E1620F05900E72B72 /* THViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D80B201F1620F05800E72B72 /* #WSSWAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#WSSWAG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80B20231620F05800E72B72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D80B20251620F05800E72B72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D80B20271620F05800E72B72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D80B202B1620F05800E72B72 /* #WSSWAG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "#WSSWAG-Info.plist"; sourceTree = "<group>"; };
+		D80B202D1620F05800E72B72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D80B202F1620F05800E72B72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D80B20311620F05800E72B72 /* #WSSWAG-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "#WSSWAG-Prefix.pch"; sourceTree = "<group>"; };
+		D80B20321620F05800E72B72 /* THAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THAppDelegate.h; sourceTree = "<group>"; };
+		D80B20331620F05800E72B72 /* THAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAppDelegate.m; sourceTree = "<group>"; };
+		D80B20351620F05900E72B72 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D80B20371620F05900E72B72 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D80B20391620F05900E72B72 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D80B203B1620F05900E72B72 /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
+		D80B203C1620F05900E72B72 /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
+		D80B203F1620F05900E72B72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/THViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80B201C1620F05800E72B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B20241620F05800E72B72 /* UIKit.framework in Frameworks */,
+				D80B20261620F05800E72B72 /* Foundation.framework in Frameworks */,
+				D80B20281620F05800E72B72 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D80B20141620F05800E72B72 = {
+			isa = PBXGroup;
+			children = (
+				D80B20291620F05800E72B72 /* #WSSWAG */,
+				D80B20221620F05800E72B72 /* Frameworks */,
+				D80B20201620F05800E72B72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D80B20201620F05800E72B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80B201F1620F05800E72B72 /* #WSSWAG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80B20221620F05800E72B72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D80B20231620F05800E72B72 /* UIKit.framework */,
+				D80B20251620F05800E72B72 /* Foundation.framework */,
+				D80B20271620F05800E72B72 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D80B20291620F05800E72B72 /* #WSSWAG */ = {
+			isa = PBXGroup;
+			children = (
+				D80B20321620F05800E72B72 /* THAppDelegate.h */,
+				D80B20331620F05800E72B72 /* THAppDelegate.m */,
+				D80B203B1620F05900E72B72 /* THViewController.h */,
+				D80B203C1620F05900E72B72 /* THViewController.m */,
+				D80B203E1620F05900E72B72 /* THViewController.xib */,
+				D80B202A1620F05800E72B72 /* Supporting Files */,
+			);
+			path = "#WSSWAG";
+			sourceTree = "<group>";
+		};
+		D80B202A1620F05800E72B72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D80B202B1620F05800E72B72 /* #WSSWAG-Info.plist */,
+				D80B202C1620F05800E72B72 /* InfoPlist.strings */,
+				D80B202F1620F05800E72B72 /* main.m */,
+				D80B20311620F05800E72B72 /* #WSSWAG-Prefix.pch */,
+				D80B20351620F05900E72B72 /* Default.png */,
+				D80B20371620F05900E72B72 /* Default@2x.png */,
+				D80B20391620F05900E72B72 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80B201E1620F05800E72B72 /* #WSSWAG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80B20431620F05900E72B72 /* Build configuration list for PBXNativeTarget "#WSSWAG" */;
+			buildPhases = (
+				D80B201B1620F05800E72B72 /* Sources */,
+				D80B201C1620F05800E72B72 /* Frameworks */,
+				D80B201D1620F05800E72B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "#WSSWAG";
+			productName = "#WSSWAG";
+			productReference = D80B201F1620F05800E72B72 /* #WSSWAG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80B20161620F05800E72B72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TH;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tom Hartley";
+			};
+			buildConfigurationList = D80B20191620F05800E72B72 /* Build configuration list for PBXProject "#WSSWAG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D80B20141620F05800E72B72;
+			productRefGroup = D80B20201620F05800E72B72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80B201E1620F05800E72B72 /* #WSSWAG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80B201D1620F05800E72B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B202E1620F05800E72B72 /* InfoPlist.strings in Resources */,
+				D80B20361620F05900E72B72 /* Default.png in Resources */,
+				D80B20381620F05900E72B72 /* Default@2x.png in Resources */,
+				D80B203A1620F05900E72B72 /* Default-568h@2x.png in Resources */,
+				D80B20401620F05900E72B72 /* THViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80B201B1620F05800E72B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B20301620F05800E72B72 /* main.m in Sources */,
+				D80B20341620F05800E72B72 /* THAppDelegate.m in Sources */,
+				D80B203D1620F05900E72B72 /* THViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D80B202C1620F05800E72B72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80B202D1620F05800E72B72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D80B203E1620F05900E72B72 /* THViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80B203F1620F05900E72B72 /* en */,
+			);
+			name = THViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80B20411620F05900E72B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D80B20421620F05900E72B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80B20441620F05900E72B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "#WSSWAG/#WSSWAG-Prefix.pch";
+				INFOPLIST_FILE = "#WSSWAG/#WSSWAG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D80B20451620F05900E72B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "#WSSWAG/#WSSWAG-Prefix.pch";
+				INFOPLIST_FILE = "#WSSWAG/#WSSWAG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80B20191620F05800E72B72 /* Build configuration list for PBXProject "#WSSWAG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B20411620F05900E72B72 /* Debug */,
+				D80B20421620F05900E72B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80B20431620F05900E72B72 /* Build configuration list for PBXNativeTarget "#WSSWAG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B20441620F05900E72B72 /* Debug */,
+				D80B20451620F05900E72B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80B20161620F05800E72B72 /* Project object */;
+}
