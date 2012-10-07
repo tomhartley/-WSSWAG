@@ -18,6 +18,11 @@
 		D80B203A1620F05900E72B72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D80B20391620F05900E72B72 /* Default-568h@2x.png */; };
 		D80B203D1620F05900E72B72 /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80B203C1620F05900E72B72 /* THViewController.m */; };
 		D80B20401620F05900E72B72 /* THViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D80B203E1620F05900E72B72 /* THViewController.xib */; };
+		D83FDE201621B8D600F73EC9 /* THYOLOController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FDE1E1621B8D600F73EC9 /* THYOLOController.m */; };
+		D83FDE211621B8D600F73EC9 /* THYOLOController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D83FDE1F1621B8D600F73EC9 /* THYOLOController.xib */; };
+		D83FDE231621C73800F73EC9 /* paris.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83FDE221621C73800F73EC9 /* paris.mp3 */; };
+		D83FDE251621C7FB00F73EC9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83FDE241621C7FB00F73EC9 /* AVFoundation.framework */; };
+		D83FDE271621D01400F73EC9 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83FDE261621D01400F73EC9 /* win.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,12 @@
 		D80B203B1620F05900E72B72 /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
 		D80B203C1620F05900E72B72 /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
 		D80B203F1620F05900E72B72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/THViewController.xib; sourceTree = "<group>"; };
+		D83FDE1D1621B8D600F73EC9 /* THYOLOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THYOLOController.h; sourceTree = "<group>"; };
+		D83FDE1E1621B8D600F73EC9 /* THYOLOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THYOLOController.m; sourceTree = "<group>"; };
+		D83FDE1F1621B8D600F73EC9 /* THYOLOController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THYOLOController.xib; sourceTree = "<group>"; };
+		D83FDE221621C73800F73EC9 /* paris.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = paris.mp3; sourceTree = "<group>"; };
+		D83FDE241621C7FB00F73EC9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D83FDE261621D01400F73EC9 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83FDE251621C7FB00F73EC9 /* AVFoundation.framework in Frameworks */,
 				D80B20241620F05800E72B72 /* UIKit.framework in Frameworks */,
 				D80B20261620F05800E72B72 /* Foundation.framework in Frameworks */,
 				D80B20281620F05800E72B72 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +68,7 @@
 		D80B20141620F05800E72B72 = {
 			isa = PBXGroup;
 			children = (
+				D83FDE241621C7FB00F73EC9 /* AVFoundation.framework */,
 				D80B20291620F05800E72B72 /* #WSSWAG */,
 				D80B20221620F05800E72B72 /* Frameworks */,
 				D80B20201620F05800E72B72 /* Products */,
@@ -83,11 +96,16 @@
 		D80B20291620F05800E72B72 /* #WSSWAG */ = {
 			isa = PBXGroup;
 			children = (
+				D83FDE261621D01400F73EC9 /* win.mp3 */,
+				D83FDE221621C73800F73EC9 /* paris.mp3 */,
 				D80B20321620F05800E72B72 /* THAppDelegate.h */,
 				D80B20331620F05800E72B72 /* THAppDelegate.m */,
 				D80B203B1620F05900E72B72 /* THViewController.h */,
 				D80B203C1620F05900E72B72 /* THViewController.m */,
 				D80B203E1620F05900E72B72 /* THViewController.xib */,
+				D83FDE1D1621B8D600F73EC9 /* THYOLOController.h */,
+				D83FDE1E1621B8D600F73EC9 /* THYOLOController.m */,
+				D83FDE1F1621B8D600F73EC9 /* THYOLOController.xib */,
 				D80B202A1620F05800E72B72 /* Supporting Files */,
 			);
 			path = "#WSSWAG";
@@ -164,6 +182,9 @@
 				D80B20381620F05900E72B72 /* Default@2x.png in Resources */,
 				D80B203A1620F05900E72B72 /* Default-568h@2x.png in Resources */,
 				D80B20401620F05900E72B72 /* THViewController.xib in Resources */,
+				D83FDE211621B8D600F73EC9 /* THYOLOController.xib in Resources */,
+				D83FDE231621C73800F73EC9 /* paris.mp3 in Resources */,
+				D83FDE271621D01400F73EC9 /* win.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +198,7 @@
 				D80B20301620F05800E72B72 /* main.m in Sources */,
 				D80B20341620F05800E72B72 /* THAppDelegate.m in Sources */,
 				D80B203D1620F05900E72B72 /* THViewController.m in Sources */,
+				D83FDE201621B8D600F73EC9 /* THYOLOController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +314,7 @@
 				D80B20451620F05900E72B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

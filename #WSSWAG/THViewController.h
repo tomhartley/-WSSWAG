@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "THYOLOController.h"
+#import <AVFoundation/AVFoundation.h>
 
-@interface THViewController : UIViewController
+@interface THViewController : UIViewController {
+    THYOLOController *backController;
+    AVAudioPlayer *player;
+}
+
+- (IBAction)swapSides;
 
 @end
